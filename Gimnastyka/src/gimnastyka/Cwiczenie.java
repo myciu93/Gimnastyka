@@ -10,7 +10,7 @@ package gimnastyka;
  * @author MarcinP
  */
 public class Cwiczenie {
-    String nazwa;
+    String nazwaCwiczen;
     int dni;
     int serie;
     int powtorzenia;
@@ -20,11 +20,11 @@ public class Cwiczenie {
 
     
     public String getNazwa() {
-        return nazwa;
+        return nazwaCwiczen;
     }
 
     public void setNazwa(String nazwa) {
-        this.nazwa = nazwa;
+        this.nazwaCwiczen = nazwa;
     }
 
     public int getDni() {

@@ -62,7 +62,7 @@ public class Service {
         try {
             utwurzZapytanie();
             pstmt=con.prepareStatement("insert into APP.CWICZENIA(Nazwa,Dni,Serie,Powtorzenia) VALUES (?,?,?,?)");
-            pstmt.setString(1, cwiczenie.nazwa);
+            pstmt.setString(1, cwiczenie.nazwaCwiczen);
             pstmt.setInt(2, cwiczenie.dni);
             pstmt.setInt(3, cwiczenie.serie);
             pstmt.setInt(4, cwiczenie.powtorzenia);
